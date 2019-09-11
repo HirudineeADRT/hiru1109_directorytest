@@ -9,7 +9,6 @@
         "isDirectory": true,
         "children": [
           "7d3faf89-438b-4af7-9aec-4962eefb635b",
-          "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
           "90296038-6c35-44d5-afb9-e7ea2d16a390"
         ],
         "isRemovable": false,
@@ -24,57 +23,6 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru1109_directorytest/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "cecbc0ad-5a76-4db2-8804-9d4d03ff482b": {
-        "id": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
-        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
-        "name": "twolambda",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "ce58a434-3ba8-455d-bd69-eb9b725fc842",
-          "0ddb11c9-f8e7-4869-bb83-168593745d51"
-        ],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/twolambda"
-      },
-      "ce58a434-3ba8-455d-bd69-eb9b725fc842": {
-        "id": "ce58a434-3ba8-455d-bd69-eb9b725fc842",
-        "parent": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
-        "name": "lambda1.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/twolambda/lambda1.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "0ddb11c9-f8e7-4869-bb83-168593745d51": {
-        "id": "0ddb11c9-f8e7-4869-bb83-168593745d51",
-        "parent": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
-        "name": "lambda2.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/twolambda/lambda2.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
@@ -124,8 +72,6 @@
     "rootNode": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
     "openFiles": [
       "7d3faf89-438b-4af7-9aec-4962eefb635b",
-      "ce58a434-3ba8-455d-bd69-eb9b725fc842",
-      "0ddb11c9-f8e7-4869-bb83-168593745d51",
       "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
       "464658a7-62ca-4aed-a76d-9bc141398100"
     ],
@@ -164,7 +110,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568178116627
+    "lastSave": 1568178168953
   },
   "VCS_STATE": {
     "provider": "GitHub",
