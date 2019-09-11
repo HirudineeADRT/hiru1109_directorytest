@@ -1,0 +1,304 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863": {
+        "id": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "parent": null,
+        "name": "hiru1109_directorytest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7d3faf89-438b-4af7-9aec-4962eefb635b",
+          "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
+          "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
+          "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
+          "aa85dfc4-cb19-47a3-8b39-1704a04df3d1",
+          "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
+          "90296038-6c35-44d5-afb9-e7ea2d16a390"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru1109_directorytest"
+      },
+      "7d3faf89-438b-4af7-9aec-4962eefb635b": {
+        "id": "7d3faf89-438b-4af7-9aec-4962eefb635b",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "ac04b00e-f5d8-464e-b29d-292a42a0e6c5": {
+        "id": "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "lambdadir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b44d2652-f79a-4381-a8b8-772220191f6a"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/lambdadir"
+      },
+      "b44d2652-f79a-4381-a8b8-772220191f6a": {
+        "id": "b44d2652-f79a-4381-a8b8-772220191f6a",
+        "parent": "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
+        "name": "hiru.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/lambdadir/hiru.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "e8d31634-f7ad-4741-8e0d-8a1d87712aee": {
+        "id": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "pylambdadir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
+          "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/pylambdadir"
+      },
+      "5e899c1c-dc4e-43ce-943a-4671e3a396ca": {
+        "id": "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
+        "parent": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
+        "name": "pythin.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/pylambdadir/pythin.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7": {
+        "id": "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7",
+        "parent": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/pylambdadir/__init__.py",
+        "code": ""
+      },
+      "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91": {
+        "id": "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "htmldir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "bc84252f-e65a-46c7-8139-b4c2bf643f7f"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/htmldir"
+      },
+      "bc84252f-e65a-46c7-8139-b4c2bf643f7f": {
+        "id": "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
+        "parent": "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
+        "name": "hiruhtml.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/htmldir/hiruhtml.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>hiruhtml</title>\n</head>\n<body>\n\n</body>\n</html>"
+      },
+      "aa85dfc4-cb19-47a3-8b39-1704a04df3d1": {
+        "id": "aa85dfc4-cb19-47a3-8b39-1704a04df3d1",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "css",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a07040ca-a4c3-4d8a-8f93-1e41c06296c1"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/css"
+      },
+      "a07040ca-a4c3-4d8a-8f93-1e41c06296c1": {
+        "id": "a07040ca-a4c3-4d8a-8f93-1e41c06296c1",
+        "parent": "aa85dfc4-cb19-47a3-8b39-1704a04df3d1",
+        "name": "csshiru.css",
+        "type": "CSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/css/csshiru.css",
+        "code": ""
+      },
+      "cecbc0ad-5a76-4db2-8804-9d4d03ff482b": {
+        "id": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "twolambda",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ce58a434-3ba8-455d-bd69-eb9b725fc842",
+          "0ddb11c9-f8e7-4869-bb83-168593745d51"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twolambda"
+      },
+      "ce58a434-3ba8-455d-bd69-eb9b725fc842": {
+        "id": "ce58a434-3ba8-455d-bd69-eb9b725fc842",
+        "parent": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
+        "name": "lambda1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twolambda/lambda1.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "0ddb11c9-f8e7-4869-bb83-168593745d51": {
+        "id": "0ddb11c9-f8e7-4869-bb83-168593745d51",
+        "parent": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
+        "name": "lambda2.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twolambda/lambda2.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "90296038-6c35-44d5-afb9-e7ea2d16a390": {
+        "id": "90296038-6c35-44d5-afb9-e7ea2d16a390",
+        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+        "name": "twononlamb",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
+          "464658a7-62ca-4aed-a76d-9bc141398100"
+        ],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twononlamb"
+      },
+      "c1f1f29f-aa58-4f83-b60d-a49e06e531e0": {
+        "id": "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
+        "parent": "90296038-6c35-44d5-afb9-e7ea2d16a390",
+        "name": "html.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twononlamb/html.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>html</title>\n</head>\n<body>\n\n</body>\n</html>"
+      },
+      "464658a7-62ca-4aed-a76d-9bc141398100": {
+        "id": "464658a7-62ca-4aed-a76d-9bc141398100",
+        "parent": "90296038-6c35-44d5-afb9-e7ea2d16a390",
+        "name": "json.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1109_directorytest/twononlamb/json.json",
+        "code": "{}"
+      }
+    },
+    "rootNode": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
+    "openFiles": [
+      "7d3faf89-438b-4af7-9aec-4962eefb635b",
+      "b44d2652-f79a-4381-a8b8-772220191f6a",
+      "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
+      "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
+      "a07040ca-a4c3-4d8a-8f93-1e41c06296c1",
+      "ce58a434-3ba8-455d-bd69-eb9b725fc842",
+      "0ddb11c9-f8e7-4869-bb83-168593745d51",
+      "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
+      "464658a7-62ca-4aed-a76d-9bc141398100"
+    ],
+    "currentFileId": "464658a7-62ca-4aed-a76d-9bc141398100",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/hiru1109_directorytest/pylambdadir",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru1109_directorytest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568177403403
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru1109_directorytest",
+      "url": "https://github.com/HirudineeADRT/hiru1109_directorytest"
+    }
+  }
+}
