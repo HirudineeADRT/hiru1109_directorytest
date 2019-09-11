@@ -9,7 +9,6 @@
         "isDirectory": true,
         "children": [
           "7d3faf89-438b-4af7-9aec-4962eefb635b",
-          "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
           "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
           "90296038-6c35-44d5-afb9-e7ea2d16a390"
         ],
@@ -34,29 +33,6 @@
           "layers": []
         },
         "triggers": []
-      },
-      "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91": {
-        "id": "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
-        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
-        "name": "htmldir",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "bc84252f-e65a-46c7-8139-b4c2bf643f7f"
-        ],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/htmldir"
-      },
-      "bc84252f-e65a-46c7-8139-b4c2bf643f7f": {
-        "id": "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
-        "parent": "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
-        "name": "hiruhtml.html",
-        "type": "HTML_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/htmldir/hiruhtml.html",
-        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>hiruhtml</title>\n</head>\n<body>\n\n</body>\n</html>"
       },
       "cecbc0ad-5a76-4db2-8804-9d4d03ff482b": {
         "id": "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
@@ -148,7 +124,6 @@
     "rootNode": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
     "openFiles": [
       "7d3faf89-438b-4af7-9aec-4962eefb635b",
-      "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
       "ce58a434-3ba8-455d-bd69-eb9b725fc842",
       "0ddb11c9-f8e7-4869-bb83-168593745d51",
       "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
@@ -189,7 +164,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568177657472
+    "lastSave": 1568178116627
   },
   "VCS_STATE": {
     "provider": "GitHub",
