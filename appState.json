@@ -9,7 +9,6 @@
         "isDirectory": true,
         "children": [
           "7d3faf89-438b-4af7-9aec-4962eefb635b",
-          "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
           "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
           "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
           "aa85dfc4-cb19-47a3-8b39-1704a04df3d1",
@@ -28,37 +27,6 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru1109_directorytest/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "ac04b00e-f5d8-464e-b29d-292a42a0e6c5": {
-        "id": "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
-        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
-        "name": "lambdadir",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "b44d2652-f79a-4381-a8b8-772220191f6a"
-        ],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/lambdadir"
-      },
-      "b44d2652-f79a-4381-a8b8-772220191f6a": {
-        "id": "b44d2652-f79a-4381-a8b8-772220191f6a",
-        "parent": "ac04b00e-f5d8-464e-b29d-292a42a0e6c5",
-        "name": "hiru.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/lambdadir/hiru.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
@@ -248,7 +216,6 @@
     "rootNode": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
     "openFiles": [
       "7d3faf89-438b-4af7-9aec-4962eefb635b",
-      "b44d2652-f79a-4381-a8b8-772220191f6a",
       "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
       "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
       "a07040ca-a4c3-4d8a-8f93-1e41c06296c1",
@@ -257,7 +224,7 @@
       "c1f1f29f-aa58-4f83-b60d-a49e06e531e0",
       "464658a7-62ca-4aed-a76d-9bc141398100"
     ],
-    "currentFileId": "464658a7-62ca-4aed-a76d-9bc141398100",
+    "currentFileId": "7d3faf89-438b-4af7-9aec-4962eefb635b",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -292,7 +259,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568177403403
+    "lastSave": 1568177494764
   },
   "VCS_STATE": {
     "provider": "GitHub",
