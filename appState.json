@@ -9,7 +9,6 @@
         "isDirectory": true,
         "children": [
           "7d3faf89-438b-4af7-9aec-4962eefb635b",
-          "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
           "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
           "aa85dfc4-cb19-47a3-8b39-1704a04df3d1",
           "cecbc0ad-5a76-4db2-8804-9d4d03ff482b",
@@ -36,49 +35,6 @@
           "layers": []
         },
         "triggers": []
-      },
-      "e8d31634-f7ad-4741-8e0d-8a1d87712aee": {
-        "id": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
-        "parent": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
-        "name": "pylambdadir",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
-          "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7"
-        ],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/pylambdadir"
-      },
-      "5e899c1c-dc4e-43ce-943a-4671e3a396ca": {
-        "id": "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
-        "parent": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
-        "name": "pythin.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/pylambdadir/pythin.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python2.7",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7": {
-        "id": "a53d7c47-8b4d-4b3c-b0f1-b64723adccd7",
-        "parent": "e8d31634-f7ad-4741-8e0d-8a1d87712aee",
-        "name": "__init__.py",
-        "type": "PYTHON_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "hiru1109_directorytest/pylambdadir/__init__.py",
-        "code": ""
       },
       "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91": {
         "id": "5d54e6e3-af73-4aeb-a5e6-0516daf3aa91",
@@ -216,7 +172,6 @@
     "rootNode": "e7ef2292-9e9b-4ae1-ad42-a0e3956a6863",
     "openFiles": [
       "7d3faf89-438b-4af7-9aec-4962eefb635b",
-      "5e899c1c-dc4e-43ce-943a-4671e3a396ca",
       "bc84252f-e65a-46c7-8139-b4c2bf643f7f",
       "a07040ca-a4c3-4d8a-8f93-1e41c06296c1",
       "ce58a434-3ba8-455d-bd69-eb9b725fc842",
@@ -259,7 +214,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568177494764
+    "lastSave": 1568177607012
   },
   "VCS_STATE": {
     "provider": "GitHub",
